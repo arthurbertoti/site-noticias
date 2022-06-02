@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'CNN';
+    src: url('../images/cnn.ttf') format('truetype');
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    display: felx;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: 'CNN';
+    margin-top: 75px;
+    color: rgb(209, 40, 40);
+    font-size: 50px;
+}
+a, p{
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#error{
+    background-color: rgb(126, 24, 24);
+    border: solid;
+    border-color: rgb(207, 41, 41);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 10cm;
+    margin-left: 40%;
+}
+
+input{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    padding: 7px 10px 6px 20px;
+    border: 1px solid #dadce0;
+}
+input:focus{
+    border-color: black;
+}
+#titulo, #titulo_novo, #texto, #usuario, #senha{
+    font-size: 18px;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: 10px 0;
+}
+button{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    padding: 10px 20px 10px 20px;
+}
+button:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: #e93d3d;
+}
+/**
+    padding: 0 15px;
+    width: auto;
+    height: 40px;   
+    font-size: 16px;
+    border-radius: 30px;
+**/

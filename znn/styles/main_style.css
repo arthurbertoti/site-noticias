@@ -1,0 +1,37 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    background-color: rgb(242, 35, 35);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.448);
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    text-decoration: underline;
+}
+div{
+    border-radius: 25% black;
+    text-align: justify;
+    width: auto;
+    height: auto;
+    font-size: large;
+    background-color: rgb(242, 242, 242);
+}
+h2{
+    text-align: center;
+}
