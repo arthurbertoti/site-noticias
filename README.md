@@ -1,4 +1,7 @@
 # Site de notícias editável
+Projeto desenvolvido com o [Rafael Macedo](www.github.com/rafaelmacedo) a partir de uma proposta da aula de Linguagem de Programação I.
+
+## Como usar:
  Necessário servidor local com as seguintes informações:
  - nome do Banco de Dados: site
  - usuário: root
